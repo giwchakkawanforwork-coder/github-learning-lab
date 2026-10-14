@@ -3,13 +3,43 @@
 <html lang="th">
 <head>
   <meta charset="UTF-8">
-  <title>My First GitHub Project</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My First Website</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #eef2ff;
+      min-height: 100vh;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .card {
+      background: white;
+      padding: 40px;
+      border-radius: 20px;
+      text-align: center;
+      box-shadow: 0 10px 30px #00000015;
+    }
+    h1 { color: #4f46e5; }
+    button {
+      background: #4f46e5;
+      color: white;
+      border: none;
+      padding: 12px 24px;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+  </style>
 </head>
 <body>
-  <h1>Hello GitHub!</h1>
-  <p>This is my first web application.</p>
-  <button onclick="alert('Hello!')">
-    Click Me
-  </button>
+  <div class="card">
+    <h1>Hello GitHub!</h1>
+    <p>My first website is now online!</p>
+    <button onclick="alert('Hello from GitHub!')">
+      Click Me
+    </button>
+  </div>
 </body>
 </html>
